@@ -24,7 +24,7 @@ export interface McpServerConfig {
  * and to connect to transports.
  */
 export class McpServerManager {
-  private server: McpServer;
+  private readonly server: McpServer;
 
   /**
    * Initializes a new instance of the McpServerManager class.
